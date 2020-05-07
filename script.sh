@@ -14,15 +14,16 @@ sudo apt update &&
 
 ## Instalando pacotes e programas do repositório deb do Ubuntu (Mint) ##
 
-sudo apt install python3 python-pip conda wine git build-essential flatpak gnome-software-plugin-flatpak -y nodejs &&
+sudo apt install python3 python-pip conda dart &&
 
 ## Instalando pacotes do Snap ##
 
 sudo snap install skype --classic &&  
-sudo snap install code &&  
+sudo snap install code --classic &&  
 sudo snap install pycharm-community --classic &&
 sudo snap install spotify &&
 sudo snap install ubuntu-make &&
+sudo snap install android-studio --classic &&
 sudo snap install inkscape &&
 sudo snap install gimp &&
 
