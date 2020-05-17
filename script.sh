@@ -12,6 +12,10 @@ sudo rm /var/lib/dpkg/lock-frontend ; sudo rm /var/cache/apt/archives/lock ;
 
 sudo apt update &&
 
+## suporte a snaps para o mint. Para Ubuntu comentar a linha
+
+sudo apt install snapd &&
+
 ## Instalando pacotes e programas do repositório deb do Ubuntu (Mint) ##
 
 sudo apt install python3 python-pip conda dart &&
@@ -21,15 +25,11 @@ sudo apt install python3 python-pip conda dart &&
 sudo snap install skype --classic &&  
 sudo snap install code --classic &&  
 sudo snap install pycharm-community --classic &&
-sudo snap install spotify &&
+sudo snap install spotify --classic &&
 sudo snap install ubuntu-make &&
 sudo snap install android-studio --classic &&
 sudo snap install inkscape &&
-sudo snap install gimp &&
-
-## Softwares que precisam de download externo ##
-
-cd ~/Downloads/ && wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i *.deb && wget -c https://uploads.treeunfe.me/downloads/instalar-freenfe.exe &&
+sudo snap install gimp --classic &&
 
 ## Atualização do sistema ##
 
