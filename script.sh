@@ -24,7 +24,7 @@ sudo apt install python3 python-pip conda dart &&
 
 sudo snap install skype --classic &&  
 sudo snap install code --classic &&  
-sudo snap install pycharm-community --classic &&
+sudo snap install pycharm-professional --classic &&
 sudo snap install spotify --classic &&
 sudo snap install ubuntu-make &&
 sudo snap install android-studio --classic &&
